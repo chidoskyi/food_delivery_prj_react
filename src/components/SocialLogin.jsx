@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { FaGoogle, FaGithub } from 'react-icons/fa';
 
 const SocialLogin = () => {
-  const baseUrl = 'https://food-api-o58i.onrender.com/api';
+  const baseUrl = `${import.meta.env.VITE_SOCKET_URL}`;
 
   const handleSocialLogin = (provider) => {
     window.location.href = `${baseUrl}/accounts/${provider}/login/`;

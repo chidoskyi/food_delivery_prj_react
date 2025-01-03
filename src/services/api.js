@@ -1,11 +1,12 @@
 import axios from 'axios';
 
 
-const apiUrl = "/choreo-apis/awbo/backend/rest-api-be2/v1.0";
+// const apiUrl = "/choreo-apis/awbo/backend/rest-api-be2/v1.0";
 // const API_URL = 'http://localhost:8000/api'; // Update with Django backend URL.
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
+    baseURL: import.meta.env.VITE_API_URL,
+    // baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
     withCredentials: true,
     xsrfCookieName: 'csrftoken',
     xsrfHeaderName: 'X-CSRFToken',

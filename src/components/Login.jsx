@@ -45,7 +45,7 @@ export const Login = () => {
   const handleSocialSignIn = async (provider) => {
     setError(null);
     try {
-      const baseUrl = 'https://food-api-o58i.onrender.com';
+      const baseUrl = `${import.meta.env.VITE_SOCKET_URL}`;
       // const baseUrl = 'http://localhost:8000';
       if (provider === 'google') {
         window.location.href = `${baseUrl}/accounts/google/login/`;

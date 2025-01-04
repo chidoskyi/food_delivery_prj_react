@@ -51,7 +51,7 @@ const Featured = () => {
     };
   return (
     <>
-    <div className='max-w-[1520px] h-[500px]  w-full relative py-4 px-4 group pt-10'>
+    <div className='max-w-[1520px] h-[500px]  w-full relative py-4 px-4 group pt-32'>
         <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 bg-no-repeat' style={{backgroundImage: `url(${sliderData[currentIndex].image})`}}></div>
     
     <div className='absolute top-[50%] hidden group-hover:block -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full  p-2 bg-orange-700 text-white cursor-pointer' onClick={prevSlide}>

@@ -82,7 +82,7 @@ function TopNav() {
     };
 
     return (
-        <div className='max-w-[1520px] mx-auto flex justify-between items-center  p-4 sticky top-0 left-0 right-0 z-50 bg-white shadow-md'>
+        <div className='max-w-[1520px] fixed mx-auto flex justify-between items-center  p-4  top-0 left-0 right-0 z-50 bg-white shadow-md'>
             <div className='flex items-center w-full justify-between'>
                 <div className='flex items-center'>
                     <div onClick={toggleMenu} className='cursor-pointer '>

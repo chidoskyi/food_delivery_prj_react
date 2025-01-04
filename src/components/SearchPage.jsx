@@ -43,7 +43,7 @@ const SearchPage = () => {
   }, [query, mealsCache]);
 
   return (
-    <div className="max-w-[1520px] m-auto px-4 py-20">
+    <div className="max-w-[1520px] m-auto px-4 py-20 pt-32">
       <h1 className="text-orange-500 font-bold text-center text-3xl py-2">
         Search Results
       </h1>

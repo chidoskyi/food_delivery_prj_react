@@ -185,7 +185,7 @@ function TopNav() {
             <div
                 className={isMenuOpen
                     ? 'fixed top-0 h-screen w-[300px] left-0 bg-white z-10 duration-300 ease-in-out'
-                    : 'fixed top-[-100%] h-screen w-full left-0 bg-white z-10 duration-300 ease-in-out'}
+                    : 'fixed left-[-100%] h-screen w-full bg-white z-10 duration-300 ease-in-out'}
             >
                 <X size={25} className='absolute top-4 right-4 cursor-pointer' onClick={toggleMenu} />
                 <h2 className='text-2xl p-4'>Yum<span className='font-bold text-orange-700'>Eats</span></h2>

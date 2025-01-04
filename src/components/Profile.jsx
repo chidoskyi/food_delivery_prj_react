@@ -3,7 +3,7 @@ import { User, LogOut } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import UpdatePasswordForm from '@/services/UpdatePassword';
 
-const BACKEND_BASE_URL = 'http://localhost:8000'; // Adjust the base URL if needed
+const BACKEND_BASE_URL = import.meta.env.VITE_SOCKET_URL; // Adjust the base URL if needed
 
 export default function Profile() {
   const { user, updateProfile, signOut, updateUser } = useAuth();

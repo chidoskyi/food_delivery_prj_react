@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardMessage, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardMessage, CardFooter, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { AlertCircle, CheckCircle, Loader2 } from "lucide-react";

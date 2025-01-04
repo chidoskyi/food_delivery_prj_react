@@ -5,6 +5,9 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    outDir: 'dist', // Ensure this is the correct directory
+  },
   plugins: [react(),  visualizer({
     open: true, // Automatically opens the visualization in your browser
     filename: 'stats.html', // Output file name

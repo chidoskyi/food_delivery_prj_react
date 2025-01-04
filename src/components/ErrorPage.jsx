@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { AlertCircle } from "lucide-react";
 
 export const ErrorPage = () => {

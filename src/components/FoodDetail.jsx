@@ -58,7 +58,7 @@ const FoodDetail = () => {
   }
 
   return (
-    <div className="max-w-8xl mx-auto px-4 py-8">
+    <div className="max-w-8xl mx-auto px-4 py-8 pt-32 ">
       <Link to="/" className="inline-flex items-center text-orange-600 hover:text-orange-800 mb-6">
         <ArrowLeft className="mr-2" size={20} />
         Back to Meals
